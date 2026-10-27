@@ -11,6 +11,14 @@
 - `config/view.rviz`：rviz2 設定檔，取自 [unitreerobotics/unilidar_sdk](https://github.com/unitreerobotics/unilidar_sdk)
 - `images/`：截圖
 
+## 下載 SDK
+官方 SDK：<https://github.com/unitreerobotics/unilidar_sdk>（含 C++ SDK、ROS 1、ROS 2 套件）
+```bash
+cd ~
+git clone https://github.com/unitreerobotics/unilidar_sdk.git
+```
+其他資源（說明書、Windows 工具等）：<https://www.unitree.com/download>
+
 ## 硬體確認
 - L1 需另接 12V 電源，USB 只傳資料
 - 接上後 `lsusb` 應出現 `10c4:ea60 Silicon Labs CP210x UART Bridge`（實際晶片 CP2104）
